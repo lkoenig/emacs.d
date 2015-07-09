@@ -13,7 +13,7 @@
 ;;;e(add-hook 'c-mode-common-hook '(lambda () (c-toggle-auto-state 1)))
 
 ;;; add the .emacs.d to the path
-(add-to-list 'load-path "C:/Users/lionelk/.emacs.d/lisp")
+(add-to-list 'load-path "~/.emacs.d/lisp")
 
 (require 'setup-helm)
 (require 'setup-helm-gtags)
