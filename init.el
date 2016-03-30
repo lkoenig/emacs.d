@@ -7,6 +7,7 @@
 (package-initialize)
 
 ;;; c-style
+(setq-default indent-tabs-mode nil)
 (setq-default c-basic-offset 4)
 (setq c-default-style "linux"
           c-basic-offset 4)
