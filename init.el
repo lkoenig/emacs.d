@@ -6,15 +6,14 @@
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize)
 
-;;; c-style
-(setq-default indent-tabs-mode nil)
-(setq-default c-basic-offset 4)
-(setq c-default-style "linux"
-          c-basic-offset 4)
+
+
 ;;;e(add-hook 'c-mode-common-hook '(lambda () (c-toggle-auto-state 1)))
 
 ;;; add the .emacs.d to the path
 (add-to-list 'load-path "~/.emacs.d/lisp")
+
+(require 'my-c-style)
 
 (require 'setup-helm)
 (require 'setup-helm-gtags)
